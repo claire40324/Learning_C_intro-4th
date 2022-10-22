@@ -1,0 +1,16 @@
+// 8.5
+#include <stdio.h>
+#include <stdlib.h>
+
+int mod(int, int);
+int main(void)
+{
+    printf("%d", mod(17, 5));
+    return 0;
+}
+
+int mod(int x, int y)
+{
+    int mod = x % y;
+    return mod;
+}
